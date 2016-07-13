@@ -28,8 +28,14 @@ button{
   padding: 5px;
 
 }
-
-li{
+ .olympianDisplay{
+  display: block;
+  padding: 20px;
+  font-size: 22px;
+  margin: 20px;
+  font-family: "Lucida Console", Monaco, monospace
+}
+p{
   padding-top: 10px;
   padding-bottom: 10px;
 }

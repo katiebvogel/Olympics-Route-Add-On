@@ -10,35 +10,20 @@
     <title>Marketable Olympian Picker</title>
   </head>
 <body>
-  <!-- <body ng-controller= "OlympicController"> -->
+
     <section class="wrapper">
     <h1>Who can sell the Olympics?</h1>
     <img src="/vendors/usa-logo.png" />
-    <!-- <button ng-click="getFive()">Get 5 Olympians</button> -->
-    <a href="/lifter"><button>Weightlifter</button></a>
-    <a href="/wrest"><button>Wrestler</button></a>
-    <a href="/box"><button>Boxer</button></a>
-    <a href="/kayak"><button>Kayaker</button></a>
-    <a href="/judo"><button>Judoka</button></a>
+  
+    <a href="/lifters"><button>Weightlifter</button></a>
+    <a href="/wrestlers"><button>Wrestler</button></a>
+    <a href="/boxers"><button>Boxer</button></a>
+    <a href="/kayakers"><button>Kayaker</button></a>
+    <a href="/judoka"><button>Judoka</button></a>
 
-    <div ng-view>
+    <div ng-view class="olympianDisplay">
 
 
-        <!-- <li ng-model="lift">
-          {{lift}}
-        </li>
-        <li ng-model="wrest">
-          {{wrest}}
-        </li>
-        <li ng-model = "box">
-          {{box}}
-        </li>
-        <li ng-model = "kayak">
-          {{kayak}}
-        </li>
-        <li ng-model = "judo">
-          {{judo}}
-        </li> -->
 
     </div>
     </section>
