@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="olympicApp">
+  <head>
+    <meta charset="utf-8">
+    <script src="vendors/angular/angular.min.js" charset="utf-8" ></script>
+    <script src="vendors/angular-route/angular-route.min.js"></script>
+    <script src="client.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <base href="/" />
+    <title>Marketable Olympian Picker</title>
+  </head>
+<body>
+  <!-- <body ng-controller= "OlympicController"> -->
+    <section class="wrapper">
+    <h1>Who can sell the Olympics?</h1>
+    <img src="/vendors/usa-logo.png" />
+    <!-- <button ng-click="getFive()">Get 5 Olympians</button> -->
+    <a href="/lifter"><button>Weightlifter</button></a>
+    <a href="/wrest"><button>Wrestler</button></a>
+    <a href="/box"><button>Boxer</button></a>
+    <a href="/kayak"><button>Kayaker</button></a>
+    <a href="/judo"><button>Judoka</button></a>
+
+    <div ng-view>
+
+
+        <!-- <li ng-model="lift">
+          {{lift}}
+        </li>
+        <li ng-model="wrest">
+          {{wrest}}
+        </li>
+        <li ng-model = "box">
+          {{box}}
+        </li>
+        <li ng-model = "kayak">
+          {{kayak}}
+        </li>
+        <li ng-model = "judo">
+          {{judo}}
+        </li> -->
+
+    </div>
+    </section>
+  </body>
+</html>
